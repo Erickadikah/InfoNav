@@ -6,13 +6,13 @@ function Header () {
     <section className="header border">
       <section className="header-top">
         <section className="header-top__logo">      
-        <img src="./mylogo.svg" alt="ai" style={{height: '50px',
+        <img src="./mylogo.svg" alt="ai" style={{
         width: '100%',
-        height: '100px',
-        padding: '0',
-        margin: '0',
+        height: '65%',
         }}/>
-          <a href="/" className="header-logo" style={{color: 'white'
+          <a href="/" className="header-logo" style={{
+            fontSize: '1rem',
+            color: 'white'
          }}>Info Nav</a>
         </section>
         <section className="header-top__navbar">

@@ -7,8 +7,7 @@
     width: 25vh;
     padding-top: 5rem;
     justify-content: space-evenly;
-    /* border-radius: 1px solid black; */
-  }
+}
   .nav_link{
     display: flex;
     align-items: center;
@@ -107,17 +106,34 @@
     padding-bottom: 125px;
     width: auto;
     height: 575px;
-    /* background-color: #000022; */
-    display: grid;
-  }
+    height: 90vh;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 
-  .container .info {
-    height: auto !important;
-    max-height: 3500px;
-    align-items: center;
+    @media screen and (max-width: 768px) {
+      margin-right: 0px;
+      display: flext-row;
+      font-size: medium;
+      margin-top: 0px;
+
+    }
+      
+    }
+
+  .Info_section {
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
     display: flex;
-    color: #fff;
-  }
+
+
+    @media screen and (max-width: 768px) {
+      margin-right: 0px;
+      display: flext-row;
+      gap: 70px;
+    }
+      
+    }
 
   .head {
     height: auto !important;
