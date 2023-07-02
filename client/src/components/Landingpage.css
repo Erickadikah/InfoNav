@@ -331,12 +331,6 @@ p.tagline {
     align-items: flex-start;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    /* font-size: 12px; */
-    /* width: auto; */
-    /* position: absolute; */
-    /* top: 65px; */
-    /* left: 450px; */
-    /* justify-content: space-between; */
 }
 
 
@@ -352,14 +346,9 @@ p.tagline {
 div.socials {
     display: flex;
     color: #FFFFFF;
-    /* position: relative; */
-    /* justify-content: flex-end; */
-    /* align-content: flex-end; */
     height: auto;
     width: 95%;
     gap: 20px;
-    /* left: 100px; */
-    /* top: 195px; */
     padding: 0px 10px;
     flex-direction: row;
 }
@@ -370,7 +359,6 @@ div.socials {
     padding: 12px;
     width: 50%;
     justify-content: space-between;
-    /* align-content: center; */
 }
 
 .socials .links {
@@ -379,3 +367,13 @@ div.socials {
     width: 25%;
     justify-content: space-between;
 }
+
+/* .right_Side {
+    display: flex;
+    flex-direction: row;
+    width: 150vw;
+    height: 62vh;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 120px;
+} */
