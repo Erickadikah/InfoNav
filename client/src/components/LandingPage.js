@@ -110,6 +110,9 @@ function LandingPage() {
       </p>
     </article>
   </div>
+  <div>
+  <h1>Right side</h1>
+  </div>
 </div>
       <Services />
       <div>
