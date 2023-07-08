@@ -25,7 +25,7 @@ function About() {
             </div>
         <span className="top_button" style={{height: "50px", 
           width: "200px",
-          background: '#062A42',
+          background: '#01bf71',
         }}>
           <Link className="text_decorator" to="/home" style={{ color: 'white',}}>Home</Link>
           </span>

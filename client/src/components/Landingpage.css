@@ -99,7 +99,10 @@
 
   .container {
     background-color: rgba(0, 0, 0, 0);
-    background-image:	url('https://images.unsplash.com/photo-1542825407-bc8c2ee8c33b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
+    background-image:	url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    /* url('https://images.unsplash.com/photo-1542825407-bc8c2ee8c33b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80'); */
+    background-size: cover;
+    background-position: center;
     padding-left: 120px;
     padding-right: 60px;
     padding-top: 125px;

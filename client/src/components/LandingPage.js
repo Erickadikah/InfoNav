@@ -25,6 +25,8 @@ function LandingPage() {
                   fontWeight: "bold",
                   fontSize: "40px",
                   fontWeight: "bold",
+                  fontFamily: "sans-serif",
+                  // color: "#187741",
                 }}
               >
                 No more Searching for answer on google!
@@ -111,7 +113,7 @@ function LandingPage() {
               control methods.
             </p>
           </article>
-          <div className="right_Side" style={{ marginLeft: "200px" }}>
+          <div style={{ marginLeft: "200px" }}>
             <h1>Get it now with InfoNav</h1>
             <div
               style={{ display: "flex", gap: "100px", alignItems: "center" }}
@@ -124,33 +126,10 @@ function LandingPage() {
                     width: "100%",
                     height: "100%",
                     marginBottom: "10px",
+                    marginRight: "50px",
                   }}
                 />
                 <p style={{ textAlign: "center" }}>Great growth</p>
-              </div>
-              <div>
-                <img
-                  src={image}
-                  alt="image"
-                  style={{
-                    width: "150%",
-                    height: "150%",
-                    marginBottom: "10px",
-                  }}
-                />
-                <p style={{ textAlign: "center" }}>Share Ideas</p>
-              </div>
-              <div>
-                <img
-                  src={share}
-                  alt="image"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    marginBottom: "10px",
-                  }}
-                />
-                <p style={{ textAlign: "center" }}>Link To Up</p>
               </div>
             </div>
             <div style={{ marginTop: '50px'}}>
@@ -161,20 +140,27 @@ function LandingPage() {
                 width: "200px",
                 borderRadius: "5px",
                 border: "1px solid white",
+                background: "#145038",
               }}
             >
               <Link
                 className="text_decorator"
                 to="/signup"
-                style={{ color: "white" }}
+                style={{ color: "white", fontWeight: 'bold' }}
               >
                 Get started Now !
-              </Link>
+              </Link> 
             </span>
-            </div>
           </div>
+          </div>
+          {/* <div style={{ justifyContent: 'flex-end' }}>
+          <img src='https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80'
+            alt='image'
+            style={{ width: '100%', height: '100%' }}
+        />
+            </div> */}
         </div>
-              </div>
+        </div>
       <Services />
       <div>
         <Footer />

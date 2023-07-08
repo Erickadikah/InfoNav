@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import { Button } from "@material-ui/core";
-import { Link } from "react-router-dom";
+// import { Button } from "@material-ui/core";
+// import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,22 +13,24 @@ function Header() {
             alt="ai"
             style={{
               width: "100%",
-              height: "65%",
+              height: "100%",
             }}
           />
           <a
             href="/"
             className="header-logo"
             style={{
-              fontSize: "1rem",
+              // fontSize: "40px",
               color: "white",
-            }}
-          >
-            Info Nav
-          </a>
+              fontWeight: "bold",
+              fontFamily: "sans-serif",
+              display: "flex",
+            }}>
+            <h1>Info Nav</h1>
+            </a>
         </section>
         <section className="header-top__navbar">
-            <Button variant="outlined" color="primary">
+            {/*<Button variant="outlined" color="primary">
               Signup
             </Button>
           <a to="/signin">
@@ -36,7 +38,7 @@ function Header() {
             {" "}
             Login
           </Button>
-          </a>
+          </a>*/}
         </section>
       </section>
     </section>
